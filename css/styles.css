@@ -410,13 +410,13 @@
     border:1px solid var(--line); padding:46px; margin-top:10px; position:relative; background:var(--paper);
   }
   .now-box::before{
-    content:'â—'; color:var(--rose-deep); font-size:10px; position:absolute; top:48px; left:-5px;
+    content:'●'; color:var(--rose-deep); font-size:10px; position:absolute; top:48px; left:-5px;
     animation:pulse 2.6s ease-in-out infinite;
   }
   @keyframes pulse{ 0%,100%{opacity:1;} 50%{opacity:.25;} }
   .now-box ul{ list-style:none; margin:22px 0 0; padding:0; display:flex; flex-direction:column; gap:14px; }
   .now-box li{ padding-left:20px; position:relative; color:var(--ink-soft); font-size:16.5px; }
-  .now-box li::before{ content:'â€”'; position:absolute; left:0; color:var(--ink-faint); }
+  .now-box li::before{ content:'—'; position:absolute; left:0; color:var(--ink-faint); }
   .now-updated{ margin-top:30px; font-family:var(--font-mono); font-size:11.5px; color:var(--ink-faint); }
 
   /* ============ CONTACT / FOOTER ============ */
